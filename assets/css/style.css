@@ -1,0 +1,83 @@
+.circle {
+  position: relative;
+  top: 2px;
+  left: -5px;
+  padding: 6px 15px !important;
+}
+
+.circle i {
+  font-size: 28px;
+	color: white;
+}
+
+.icon {
+	top: 2px;
+  left: 7px;
+	position: relative;
+}
+
+.icon i { 
+	color: white;
+	font-size: 24px;
+}
+
+.popover {
+  top:35px !important;
+  left: -180px !important;
+  padding: 2px !important;
+  min-width:400px;
+  width:100%;
+  max-width:400px;
+  border:1px solid red;
+
+}
+.text-transform {
+  text-transform: uppercase;
+  margin-top: 5px !important;
+}
+
+.list-items {
+  padding: 0 !important;
+  margin:0 !important;
+  list-style: none;
+}
+
+.list-items li {
+  float: left;
+  border:1px solid gray;
+  border-radius: 10px;
+  padding: 2px 15px;
+  margin: 5px;
+}
+
+hr {
+  margin-top:5px !important;
+  margin-bottom:5px !important;
+}
+
+.popover-content  {
+  padding: 5px 10px !important;
+}
+
+
+.content-block  {
+  clear: both;
+  height: 165px;
+  width: 100%;
+}
+
+
+
+@media only screen and (max-width:991px ) and (min-width:768px ){
+  .popover {
+    left: 330px !important;
+    padding: 2px !important;
+    min-width:400px;
+    width:100%;
+    max-width:400px;
+} 
+
+  .popover.bottom .arrow {
+    display: none !important;
+  }
+}
